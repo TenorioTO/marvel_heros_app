@@ -1,0 +1,55 @@
+.card-container {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    background-color: #FFFFFF;
+    width: 327px;
+    height: 72px;
+    border-radius: 4px;
+    box-shadow:0 0 5px #00000033;
+    margin: 4px 8px;
+
+    .items {
+        display: none;
+    }
+
+    @media(min-width: 768px) {
+        width: 80vw;
+        height: 88px;
+        margin-right: 120px;
+
+        h3 {
+            min-width: 20vw;
+            margin-right: 25px;
+        }
+
+        .items { 
+            display: block;
+            width: 40vw;
+        }
+    }
+
+    img {
+        width: 48px;
+        height: 48px;
+        margin-left: 16px;
+        border-radius: 4px;
+    }
+
+    h3 {
+        font-size: 14px;
+        margin-left: 24px;
+        text-align: left;
+        color: #555555;
+    }
+
+    p{
+        font-size: 12px;
+        text-align: justify;
+        padding: 0 10px;
+    }
+
+    &:hover {
+       box-shadow: 0 0 8px #0000009a;
+    }
+}

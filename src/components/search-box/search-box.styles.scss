@@ -1,0 +1,29 @@
+.search-box {
+    -webkit-appearance: none;
+    text-align: left;
+    width: 325px;
+    height: 32px;
+    font-size: 14px;
+    padding: 8px 0 8px 16px;
+    border: none;
+    border-radius: 4px;
+
+    @media (min-width: 768px) {
+        width: 295px;
+    }
+
+}
+
+.search-icon {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-top: 4px;
+    margin-left: -30px;
+
+    @media (min-width: 768px) {
+        width: 18px;
+        height: 18px;
+        margin-top: 6px;
+    }
+}

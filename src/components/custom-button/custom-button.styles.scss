@@ -1,0 +1,18 @@
+.custom-button {
+    width: 90px;
+    height: 30px;
+    border: 0;
+    border-radius: 20px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    background-color: #167ABC;
+
+    &:hover {
+        transition: .2s all ease-in-out;
+        background-color: transparent;
+        color: #8E8E8E;
+        border: 1px solid #167ABC;
+    }
+}

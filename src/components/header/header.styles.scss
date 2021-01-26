@@ -1,0 +1,59 @@
+.header {
+    width: 100%;
+    height: 64px;
+    font-size: 14px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    
+    .logo-left{
+        width: 100%;
+        display: flex;
+        align-items: center;
+
+
+        .logo {
+            margin-left: 24px;
+            width: 96px;
+            height: 24px;
+        }
+    }
+    
+    
+    .content-right {
+        width: 100%; 
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;   
+        letter-spacing: 0;
+        color: #555555;
+        
+        .text {
+            font-size: 12px;
+            margin-right: 16px;
+            span {
+                display: block;
+
+                @media (min-width: 768px) {
+                    display: inline;
+                    font-size: 14px;
+                }
+            }
+        }
+
+        .cb-logo {
+            height: 32px;
+            width: 32px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #F5F5F5;
+            font-family: 'PT Sans Caption';
+            font-weight: 700;
+            border-radius: 4px;
+            font-size: 15px;
+            margin-right: 24px;
+        }
+    }
+}
+
